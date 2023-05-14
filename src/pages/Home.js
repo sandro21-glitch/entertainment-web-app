@@ -11,7 +11,7 @@ const Home = () => {
   const { value } = useMoviesContext()
 
   if(value) {
-    return <main className='mx-auto flex flex-col py-6 px-4 md:m-6 md:px-0 md:pt-0  '>
+    return <main className='mx-auto flex flex-col py-6 px-4 md:m-6 md:px-0 md:pt-0 ml-0 lg:ml-32'>
         <Search location={location} />
         <SearchAll />
     </main>
