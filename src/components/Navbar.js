@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import {BiLogInCircle} from 'react-icons/bi'
 const Navbar = () => {
   return (  
-    <nav className='sticky top-0 z-50 p-5 md:mx-6 md:mt-6 md:mb-[33px] md:rounded-[10px] lg:fixed lg:left-0 lg:mr-0 lg:h-[95%] lg:py-9 bg-navBg'>
+    <nav className='sticky top-0 z-[999] p-5 md:mx-6 md:mt-6 md:mb-[33px] md:rounded-[10px] lg:fixed lg:left-0 lg:mr-0 lg:h-[95%] lg:py-9 bg-navBg'>
         <div className="flex items-center justify-between flex-row lg:flex-col h-full">
             <Link to='/'><svg className="h-[20px] w-[25px] lg:h-[25.6px] lg:w-[32px]" width="1em" height="1em" viewBox="0 0 33 27" xmlns="http://www.w3.org/2000/svg"><path d="m26.463.408 3.2 6.4h-4.8l-3.2-6.4h-3.2l3.2 6.4h-4.8l-3.2-6.4h-3.2l3.2 6.4h-4.8l-3.2-6.4h-1.6a3.186 3.186 0 0 0-3.184 3.2l-.016 19.2a3.2 3.2 0 0 0 3.2 3.2h25.6a3.2 3.2 0 0 0 3.2-3.2V.408h-6.4Z" fill="#FC4747"></path></svg></Link>
             <div className="flex flex-row items-center lg:flex-col space-x-10 md:space-x-16 lg:space-x-0 lg:space-y-10">
